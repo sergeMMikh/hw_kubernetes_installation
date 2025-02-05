@@ -32,3 +32,16 @@
 Результат проверки доступности всех хостов, участвующих в создании кластера</br>
 ![](images/Task_1.png)
 
+
+Результат запуска сборки </br>
+`ansible-playbook -i inventory/mycluster/hosts.yaml cluster.yml -u vagrant --extra-vars "ansible_password=vagrant" -b -v &`</br>
+![](images/Task_2.png)
+
+Список полученных нодов </br>
+`ansible-playbook -i inventory/mycluster/hosts.yaml cluster.yml -u vagrant --extra-vars "ansible_password=vagrant" -b -v &`</br>
+![](images/Task_3.png)
+
+
+Список ресурсов кластера </br>
+`ansible-playbook -i inventory/mycluster/hosts.yaml cluster.yml -u vagrant --extra-vars "ansible_password=vagrant" -b -v &`</br>
+![](images/Task_4.png)
